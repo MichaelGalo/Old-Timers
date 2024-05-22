@@ -13,4 +13,4 @@ console.log(grandParentGreetingMaker());
 console.log("-------------------------------------------------");
 console.log(embarrassingQuestionsMaker());
 console.log("-------------------------------------------------");
-matchMaker(gender);
+matchMaker("female");

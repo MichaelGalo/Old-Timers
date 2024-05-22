@@ -25,7 +25,7 @@ const embarrassingQuestionsMaker = () => {
   return embarrassingSituation;
 };
 
-const gender = "female";
+
 
 const matchMaker = (gender) => {
   const maleSoulmateIndex = Math.floor(
@@ -71,6 +71,5 @@ const matchMaker = (gender) => {
 module.exports = {
   grandParentGreetingMaker,
   embarrassingQuestionsMaker,
-  gender,
   matchMaker,
 };
