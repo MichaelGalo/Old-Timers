@@ -1,6 +1,8 @@
 // import statements
-const { nicknameMaker } = require("./functions");
+const { grandParentGreetingMaker } = require("./functions");
+const { grandpa } = require("./asciArt");
 
 // logic
-
-console.log(nicknameMaker());
+console.log(grandpa);
+console.log(grandParentGreetingMaker());
+console.log();
