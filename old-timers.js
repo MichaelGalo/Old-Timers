@@ -1,8 +1,9 @@
 // import statements
 const {
   grandParentGreetingMaker,
-  embarrassingQuestionsMaker, getGender, matchMaker,
-  gender
+  embarrassingQuestionsMaker,
+  matchMaker,
+  gender,
 } = require("./functions");
 const { grandpa } = require("./asciArt");
 
@@ -12,5 +13,4 @@ console.log(grandParentGreetingMaker());
 console.log("-------------------------------------------------");
 console.log(embarrassingQuestionsMaker());
 console.log("-------------------------------------------------");
-matchMaker(gender)
-
+matchMaker(gender);
