@@ -1,6 +1,6 @@
 const { database } = require("./database.js");
 
-const nicknameMaker = () => {
+const grandParentGreetingMaker = () => {
   // generating random indices
   const adjectiveIndex = Math.floor(Math.random() * database.firstNames.length);
   const nounIndex = Math.floor(Math.random() * database.lastNames.length);
@@ -16,5 +16,6 @@ const nicknameMaker = () => {
 
   return nickname;
 };
+// new feature - embarassing questions
 
-module.exports = { nicknameMaker };
+module.exports = { grandParentGreetingMaker };
