@@ -25,28 +25,28 @@ const embarrassingQuestionsMaker = () => {
   return embarrassingSituation;
 };
 
-const gender = "female"
+const gender = "male"
 
 const matchMaker = (gender) => {
   const maleSoulmateIndex = Math.floor(Math.random() * database.maleSoulmates.length)
   const maleSoulmate = database.maleSoulmates[maleSoulmateIndex]
   const femaleSoulmateIndex = Math.floor(Math.random() * database.femaleSoulmates.length)
-  const femaleSoulmate = database.maleSoulmates[femaleSoulmateIndex]
+  const femaleSoulmate = database.femaleSoulmates[femaleSoulmateIndex]
   const soulmateLocationIndex = Math.floor(Math.random() * database.soulmateLocations.length) 
   const soulmateLocation = database.soulmateLocations[soulmateLocationIndex]
 
   if( gender === "male") {
 
     console.log(`you are NOT gonna believe into I ran into...it was your ex`)
-    console.log(`THAT's RIGHT!! I ran into ${maleSoulmate} at ${soulmateLocation} and I gave her your new number, 
-    because she said she couldn't reach you. Can you believe that!!`)
+    console.log(`THAT's RIGHT!! I ran into ${maleSoulmate} at ${soulmateLocation} and I gave her your new number.`)
+    console.log(`she said she couldn't reach you. Can you believe that!!!`)
     console.log(`She must've not know you got a new phone number after yall broke up, poor thing`)
     console.log(`I hope it goes well this 5th time around, I WANT GRANDCHILDREN!!!`)
 
     } else if (gender === "female") {
     console.log(`you are NOT gonna believe into I ran into...it was your ex`)
-    console.log(`THAT's RIGHT!! I ran into ${femaleSoulmate} at ${soulmateLocation} and I gave him your new number, 
-    because he said he couldn't reach you. Can you believe that!!`)  
+    console.log(`THAT's RIGHT!! I ran into ${femaleSoulmate} at ${soulmateLocation} and I gave him your new number`)
+    console.log(`He said he couldn't reach you. Can you believe that!!`)  
     console.log(`He must've not know you got a new phone number after yall broke up, poor thing`)
     console.log(`I hope it goes well this 5th time around, I WANT GRANDCHILDREN!!!`)
   }
