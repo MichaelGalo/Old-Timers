@@ -41,30 +41,58 @@ const database = {
     "How's my",
   ],
   femaleSoulmates: [
-    "Darth Vade",
-    "Obama",
+    "Darth Vader",
     "Grigori Rasputin",
     "Elvis Presly",
     "LeGoat James",
     "Hannibal Lecter",
-    "the Joker ",
-    "Ender Dragon", 
+    "the Joker",
     "Freddy Kreuger",
-    "Micheal Myers",
+    "Michael Myers",
     "Dracula",
-    "Jack Torrance"
+    "Captain America",
+    "Draco Malfoy",
+    "Patrick Bateman",
+    "Count Dracula",
+    "President Snow",
+    "Count Olaf",
+    "Aragorn",
+    "Peeta Mellark",
+    "Jamie Lannister",
+    "Lord Voldemort",
+    "Sauron",
   ],
   maleSoulmates: [
-    "Hillary Clinton",
     "Mileena",
-    "Mother Teresa"
+    "Mother Teresa",
+    "Princess Leia",
+    "Harley Quinn",
+    "Hermione Granger",
+    "Katniss Everdeen",
+    "Princess Fiona",
+    "Princess Peach",
+    "Zelda",
+    "Taylor Swift",
+    "Adele",
+    "Cruella di Vil",
+    "Dolores Umbridge",
+    "Medusa",
+    "Bellatrix Lestrange",
   ],
 
   soulmateLocations: [
     "Walmart cleaning aisle",
     "Trader Joes clearance section",
-    "Star base",
-    "Walgreens ice cream section"
+    "Walgreens ice cream section",
+    "weekly bingo table",
+    "jazzercise class",
+    "pigeon feeding park bench",
+    "AARP fan fiction chat room",
+    "pharmacy prescription refill line",
+    "annual senior living rave",
+    "Ace Hardware garden center",
+    "community outdoor chess tables",
+    "mini-storage auction crowd",
   ],
   situations: [
     "ravaging head lice",
@@ -80,8 +108,7 @@ const database = {
     "cringey TikTok dances",
     "chronic dad sneezes",
     "relationship with your imaginary friend",
-  ]
-
+  ],
 };
 
 module.exports = { database };
