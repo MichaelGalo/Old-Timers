@@ -3,7 +3,7 @@ Areas we worked on:
   - Randomized:
     - Grandpa Greeting with 3 components
     - Embarassing Question
-    - Matchmaker story based on set gender
+    - Matchmaker story based on set gender with 2 components
 
 What did we learn?
 - using the terminal for pulling and pushing code to Github regularly
