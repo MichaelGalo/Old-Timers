@@ -40,6 +40,32 @@ const database = {
     "Well, isn't it my,",
     "How's my",
   ],
+  femaleSoulmates: [
+    "Darth Vade",
+    "Obama",
+    "Grigori Rasputin",
+    "Elvis Presly",
+    "LeGoat James",
+    "Hannibal Lecter",
+    "the Joker ",
+    "Ender Dragon", 
+    "Freddy Kreuger",
+    "Micheal Myers",
+    "Dracula",
+    "Jack Torrance"
+  ],
+  maleSoulmates: [
+    "Hillary Clinton",
+    "Mileena",
+    "Mother Teresa"
+  ],
+
+  soulmateLocations: [
+    "Walmart cleaning aisle",
+    "Trader Joes clearance section",
+    "Star base",
+    "Walgreens ice cream section"
+  ],
   situations: [
     "ravaging head lice",
     "explosive diarrhea",
@@ -54,7 +80,8 @@ const database = {
     "cringey TikTok dances",
     "chronic dad sneezes",
     "relationship with your imaginary friend",
-  ],
+  ]
+
 };
 
 module.exports = { database };
