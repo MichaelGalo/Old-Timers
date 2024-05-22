@@ -12,7 +12,6 @@ const database = {
     "joyful",
     "little",
     "cute",
-    "special",
   ],
   lastNames: [
     "pumpkin",
@@ -66,8 +65,22 @@ const database = {
     "Trader Joes clearance section",
     "Star base",
     "Walgreens ice cream section"
+  ],
+  situations: [
+    "ravaging head lice",
+    "explosive diarrhea",
+    "manic shoplifting",
+    "drunken karaoke skills",
+    "pie-eating contest practice",
+    "avant garde cat clothes fashion business",
+    "bed-wetting",
+    "clinically interesting body odor",
+    "drunken texts to your boss",
+    "collection of eBay toenails",
+    "cringey TikTok dances",
+    "chronic dad sneezes",
+    "relationship with your imaginary friend",
   ]
-
 
 };
 
