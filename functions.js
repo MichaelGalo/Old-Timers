@@ -12,10 +12,17 @@ const grandParentGreetingMaker = () => {
   const phrase = database.phrases[phraseIndex];
 
   // concatenated random strings
-  const nickname = `${phrase} ${adjective} ${noun}`;
+  const nickname = `${phrase} ${adjective} ${noun}!`;
 
   return nickname;
 };
-// new feature - embarassing questions
 
-module.exports = { grandParentGreetingMaker };
+const embarrassingQuestionsMaker = () => {
+  const situationIndex = Math.floor(Math.random() * database.situations.length);
+  const situation = database.situations[situationIndex];
+  const embarrassingSituation = `How is your ${situation}? \nI heard you were stressed about that.`;
+
+  return embarrassingSituation;
+};
+
+module.exports = { grandParentGreetingMaker, embarrassingQuestionsMaker };
